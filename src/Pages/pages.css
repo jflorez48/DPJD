@@ -1,0 +1,149 @@
+@font-face {
+    font-family: Darkline;
+    src: url("../Componentes/Containerbtn/Darkline.ttf") format('truetype');
+}
+
+.sub_title {
+    color: #233487;
+}
+.Darkline{
+    font-family: Darkline;
+}
+.banner_marcas {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 68, 255, 0.159) 100%), url("../assets/img/Marcas.jpg");
+
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+
+}
+
+.banner_jobs {
+    background:  url("../assets/img/jobs.jpg");
+
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+
+}
+.banner_contact {
+    background:  url("../assets/img/contactanos.jpg");
+
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
+.banner_politicas {
+    background:  url("../assets/img/Politicas.jpg");
+
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
+
+@media (max-width: 780px) {
+    .banner_contact, .banner_jobs, .banner_marcas  {
+       height: 30vh;
+    }
+}
+
+.text_marcasC {
+    display: flex;
+
+   
+}
+
+.text_marcasC h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-top:80px;
+    margin-left:40px;
+}
+.text_marcasC p {
+    font-size: 50px;
+    letter-spacing: -1px;
+    margin-top: -25px;
+    font-family: Darkline;
+}
+
+
+.text_marcas {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text_marcas h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.text_marcas p {
+    font-size: 50px;
+    letter-spacing: -1px;
+    margin-top: -25px;
+    font-family: Darkline;
+}
+
+/* Pagina plataformas */
+.caja {
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+
+
+.banner_plataformas{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 68, 255, 0.459) 100%), url("https://cutt.ly/bL4UFmu");
+
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: 10% 90%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+
+}
+.text_plataformas {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.text_plataformas{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}

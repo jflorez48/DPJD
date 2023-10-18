@@ -1,0 +1,71 @@
+/* Header-nav */
+.header {
+    background: rgb(14, 24, 77);
+    background: linear-gradient(90deg, rgba(14, 24, 77, 1) 0%, rgba(27, 55, 143, 1) 35%, rgba(17, 49, 139, 1) 100%);
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+
+    top: 0;
+    left: 0;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo {
+    margin-left: 90px;
+
+
+}
+
+.logo img {
+    width: 268px;
+    height: 100px;
+
+
+}
+
+.Ecommerse {
+    background: rgb(71, 71, 168);
+    background: linear-gradient(90deg, rgba(71, 71, 168, 1) 0%, rgba(7, 128, 200, 1) 35%);
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+
+
+}
+
+.Ecommerse a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 0px;
+    margin: 10px;
+}

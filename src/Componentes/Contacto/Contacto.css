@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Darkline;
+  src: url("../Containerbtn/Darkline.ttf") format("truetype");
+}
+
+.hijo {
+  height: 100%;
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon .MuiSvgIcon-root {
+  color: gray;
+}
+
+.textcontact {
+  font-family: Darkline;
+
+  color: #233487;
+  margin-bottom: 1rem;
+}
+
+.contenedorform {
+  box-shadow: 5px 3px 24px -1px rgba(0, 0, 0, 0.2),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  border-radius: 10px;
+}
+
+.contact_fomr {
+  background: 
+    url("../../assets/img/Form.jpg");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+ 
+}
+@media (max-width: 768px) {
+  .contact_fomr {
+    
+    border-radius: 20px 20px 0px 0px;
+
+
+  }
+}

@@ -1,0 +1,47 @@
+.color_text {
+    color: #424B78;
+}
+
+.cardbody {
+    height: 250px;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+.card-container {
+    width: 70%;
+    height: 100%;
+
+
+
+}
+
+.cardbody .text-blue-700 {
+    color: #2F429E;
+}
+
+.blog_titulo h2 {
+    color: #2F429E;
+}
+
+.blog_titulo img {
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+.blog_descripcion h4{
+    color: #2F429E;
+}
+.blog_descripcion img{
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+
+    border-radius: 10px;
+}

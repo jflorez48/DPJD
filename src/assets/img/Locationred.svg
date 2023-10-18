@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.182" height="86.117" viewBox="0 0 70.182 86.117">
+  <defs>
+    <filter id="Icon_material-location-on" x="0" y="0" width="70.182" height="86.117" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-color="#040636" flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_461" data-name="Grupo 461" transform="translate(-527.923 -314.619)">
+    <g transform="matrix(1, 0, 0, 1, 527.92, 314.62)" filter="url(#Icon_material-location-on)">
+      <path id="Icon_material-location-on-2" data-name="Icon material-location-on" d="M26.091,3A18.577,18.577,0,0,0,7.5,21.591c0,13.943,18.591,34.526,18.591,34.526S44.682,35.534,44.682,21.591A18.577,18.577,0,0,0,26.091,3Zm0,25.231a6.64,6.64,0,1,1,6.64-6.64A6.642,6.642,0,0,1,26.091,28.231Z" transform="translate(9 8.5)" fill="#ff2626"/>
+    </g>
+    <circle id="Elipse_49" data-name="Elipse 49" cx="7.5" cy="7.5" r="7.5" transform="translate(555.858 337.772)" fill="#fff"/>
+  </g>
+</svg>

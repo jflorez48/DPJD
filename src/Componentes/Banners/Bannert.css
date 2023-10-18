@@ -1,0 +1,132 @@
+.Container_bannert {
+    margin:  auto;
+    width: 100%;
+
+
+}
+
+.bannert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    color: #233487;
+
+}
+
+.bannert img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.bannert_text .colombia {
+    font-family: Darkline;
+    font-size: 72px;
+
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #233487;
+    background: #F5FC2F;
+    background: linear-gradient(to right, #F5FC2F 10%, #D9E241 29%, #1B2EBA 30%, #0C1FC4 40%, #2142C4 59%, #F80D0D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.bannert_text span {
+    font-family: Darkline;
+    font-size: 72px;
+    color: #233487;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.trayectoria {
+    text-decoration: none;
+    margin: 10px auto;
+    text-align: center;
+    color: #ffffff;
+    width: 50%;
+    visibility: hidden;
+   
+    
+
+}
+
+
+@media (min-width: 780px) {
+    .trayectoria {
+
+
+        text-decoration: none;
+        margin: 10px auto;
+        text-align: center;
+        color: #ffffff;
+        width: 50%;
+     
+        margin-top: -540px;
+        margin-left: 30%;
+        margin-bottom:600px
+    
+    }
+}
+@media (min-width: 1450px) {
+    .trayectoria {
+
+        margin-top: -580px;
+    
+    }
+}
+
+
+
+
+
+.trayectoria a {
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Banner Conocenos */
+
+.contenedor_banner {
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.logo_banner {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.contenedor_banner {
+    background: linear-gradient(to top, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.4) 100%), url("https://cutt.ly/cLSibu7");
+
+    background-Size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.logo_banner {
+    position: relative;
+    top: 80%;
+    bottom: 0;
+
+}
+
+/* Mobil */
+
+@media (max-width: 780px) {
+    .contenedor_banner {
+        width: 100%;
+        height: 400px;
+    }
+}

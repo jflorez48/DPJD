@@ -1,0 +1,9 @@
+.foooter_bg{
+    background: rgb(35,52,135);
+    background: radial-gradient(circle, rgba(35,52,135,1) 0%, rgba(46,70,185,1) 97%);
+  
+}
+.Text_footer{
+    color: #fff;
+   
+}
